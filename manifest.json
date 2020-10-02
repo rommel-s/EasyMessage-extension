@@ -1,0 +1,9 @@
+{
+  "name": "Easy Message Extension",
+  "version": "1.0",
+  "description": "A easy way to send WhatsApp messages",
+  "browser_action": {
+    "default_popup": "main.html"
+  },
+  "manifest_version": 2
+}
