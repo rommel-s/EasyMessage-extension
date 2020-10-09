@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       alertText.appendChild(emptyInputError);
       popupAlert.appendChild(alertText);
 
-      //sendBtn.setAttribute("disabled", "disabled");
+      sendBtn.setAttribute("disabled", "disabled");
     } else {
       window.open(
         `https://api.whatsapp.com/send?1=ptBR&phone=55${ddd.value}${telephoneNumber.value}`
