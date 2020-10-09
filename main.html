@@ -5,13 +5,24 @@
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <label for="ddd-number">DDD:</label>
-    <input type="number" id="ddd-number" max="3" />
+    <header>
+      <h4>Insira DDD e telefone desejado.</h4>
+    </header>
 
-    <label for="phone-number">Telefone</label>
-    <input type="number" id="phone-number" max="9" />
+    <section>
+      <label id="ddd-input">
+        <input type="number" id="ddd-number" max="2" placeholder=" " />
+        <p>DDD</p>
+      </label>
+
+      <label id="phone-input">
+        <input type="number" id="phone-number" max="9" placeholder=" " />
+        <p>Telefone</p>
+      </label>
+    </section>
 
     <button id="send-btn">Enviar</button>
+    <button id="reload-btn">Recarregar</button>
     <div id="popup-alert"></div>
 
     <script src="src/scripts.js"></script>
