@@ -2,9 +2,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const ddd = document.getElementById("ddd-number");
   const telephoneNumber = document.getElementById("phone-number");
   const sendBtn = document.querySelector("#send-btn");
+  const reloadBtn = document.querySelector("#reload-btn");
 
   sendBtn.addEventListener("click", () => {
     sendMessage();
+  });
+
+  reloadBtn.addEventListener("click", () => {
+    reload();
   });
 
   function sendMessage() {
@@ -23,5 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
         `https://api.whatsapp.com/send?1=ptBR&phone=55${ddd.value}${telephoneNumber.value}`
       );
     }
+  }
+
+  function reload() {
+    document.location.reload(true);
   }
 });
