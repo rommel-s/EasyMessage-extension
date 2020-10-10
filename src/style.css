@@ -11,12 +11,14 @@
 
 html,
 body {
-  height: 100%;
+  height: 142px;
+  width: 314px;
 }
 
 body {
   height: 50px;
   padding: 15px;
+  background-color: #fafafa;
 }
 
 section {
@@ -83,4 +85,24 @@ label input:not(:placeholder-shown) + p {
 
 label input:not(:focus) + p {
   color: #c5c5c5;
+}
+
+div #buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+button {
+  height: 2rem;
+  width: 5rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+#send-btn {
+  background-color: #18c200;
+  color: #fafafa;
+  font-family: "Open-Sans", sans-serif;
 }
