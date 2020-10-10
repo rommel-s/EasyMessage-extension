@@ -11,18 +11,21 @@
 
     <section>
       <label id="ddd-input">
-        <input type="number" id="ddd-number" max="2" placeholder=" " />
+        <input type="number" id="ddd-number" maxlength="2" placeholder=" " />
         <p>DDD</p>
       </label>
 
       <label id="phone-input">
-        <input type="number" id="phone-number" max="9" placeholder=" " />
+        <input type="number" id="phone-number" maxlength="9" placeholder=" " />
         <p>Telefone</p>
       </label>
     </section>
 
-    <button id="send-btn">Enviar</button>
-    <button id="reload-btn">Recarregar</button>
+    <div id="buttons">
+      <button id="send-btn">Enviar</button>
+      <button id="reload-btn">Recarregar</button>
+    </div>
+
     <div id="popup-alert"></div>
 
     <script src="src/scripts.js"></script>
