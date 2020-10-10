@@ -2,6 +2,9 @@
   "name": "Easy Message Extension",
   "version": "1.0",
   "description": "A easy way to send WhatsApp messages",
+  "icons": {
+    "128": "src/icon/128.png"
+  },
   "browser_action": {
     "default_popup": "main.html"
   },
